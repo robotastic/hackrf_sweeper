@@ -1,5 +1,6 @@
 *.code-workspace
 .vscode
+.venv
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles

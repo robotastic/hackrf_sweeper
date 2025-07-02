@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=HackRF Spectrum Analyzer
+Comment=Graphical spectrum analyzer for HackRF devices
+Exec=/home/%u/Projects/RF-Scanning/hackrf_sweeper/python_ui/run_spectrum_analyzer.sh
+Icon=utilities-system-monitor
+Terminal=false
+Categories=Development;Electronics;Science;
+Keywords=hackrf;spectrum;analyzer;radio;sdr;
+StartupNotify=true
+MimeType=application/x-hackrf-sweep-data; 
