@@ -51,7 +51,7 @@ else()
 endif()
 
 # Library (libhackrf_sweeper)
-add_library(hackrf_sweeper STATIC src/lib/sweep.c)
+add_library(hackrf_sweeper SHARED src/lib/sweep.c)
 target_link_libraries(hackrf_sweeper ${SWEEPER_LIB_LINK_LIBS} ${LIBHACKRF_LIBRARIES})
 
 SET(TOOLS
